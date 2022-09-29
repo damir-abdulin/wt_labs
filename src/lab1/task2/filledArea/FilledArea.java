@@ -23,4 +23,24 @@
 package lab1.task2.filledArea;
 
 public class FilledArea {
+
+    private final double left;
+    private final double right;
+    private final double top;
+    private final double bottom;
+
+    public FilledArea(double left, double top, double right, double bottom) {
+        this.left = left;
+        this.right = right;
+        this.top = top;
+        this.bottom = bottom;
+    }
+
+    /**
+     * Returns true if area has point (x, y)
+     */
+    public boolean isInArea(double x, double y) {
+        return  ((x >= left  ) && (x <= right)) &&
+                ((y >= bottom) && (y <= top  ));
+    }
 }
