@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package lab1.task2.fieldArea;
+package lab1.task2.filledArea;
 
-public class FieldArea {
+public class FilledArea {
 }
