@@ -22,5 +22,89 @@
  */
 package lab1.input;
 
+import java.util.Scanner;
+
 public class Input {
+
+    private final Scanner scanner;
+
+    /**
+     * Init object for get input from System.in
+     */
+    public Input()
+    {
+        scanner = new Scanner(System.in);
+    }
+
+    /**
+     * Init object for get input from stream
+     * @param stream source for inputs
+     */
+    public Input(java.io.InputStream stream)
+    {
+        scanner = new Scanner(stream);
+    }
+
+    /**
+     * Returns double value from scanner.
+     * @param message input prompt.
+     * @return double value
+     */
+    public double getDoubleValue(String message) {
+        System.out.print(message);
+
+        while (!scanner.hasNextDouble()) {
+            scanner.next();
+
+            System.out.println("[ERROR: Invalid input] Input real number.");
+            System.out.print(message);
+        }
+
+        return scanner.nextDouble();
+    }
+
+    /**
+     * Returns integer value from scanner.
+     * @param message input prompt.
+     * @return double value
+     */
+    public int getIntegerValue(String message) {
+        System.out.print(message);
+
+        while (!scanner.hasNextInt()) {
+            scanner.next();
+
+            System.out.println("[ERROR: Invalid input] Input integer number.");
+            System.out.print(message);
+        }
+
+        return scanner.nextInt();
+    }
+
+    /**
+     * Get values for array from scanner.
+     * @param arr destination
+     * @param arrName array name for input prompt
+     */
+    public void getIntegerArray(int[] arr, String arrName) {
+        String inputPrompt;
+
+        for (int i = 0; i < arr.length; i++) {
+            inputPrompt = String.format("Input %s[%d]: ", arrName, i);
+            arr[i] = getIntegerValue(inputPrompt);
+        }
+    }
+
+    /**
+     * Get values for array from scanner.
+     * @param arr destination
+     * @param arrName array name for input prompt
+     */
+    public void getDoubleArray(double[] arr, String arrName) {
+        String inputPrompt;
+        for (int i = 0; i < arr.length; i++) {
+            inputPrompt = String.format("Input %s[%d]: ", arrName, i);
+            arr[i] = getDoubleValue(inputPrompt);
+        }
+    }
 }
