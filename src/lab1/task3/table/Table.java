@@ -23,4 +23,41 @@
 package lab1.task3.table;
 
 public class Table {
+
+    private final int lineLength = 23;
+    private StringBuilder stringTable;
+
+    /**
+     * Show string `tableString`.
+     */
+    public void printTable()
+    {
+        System.out.println(stringTable);
+    }
+
+    /**
+     * Add table header to `tableString`.
+     */
+    public void addHeader() {
+        stringTable.append(" x         | tg(x)     |%n");
+        addLine(lineLength);
+    }
+
+    /**
+     * Add function result to `tableString`.
+     * @param x - argument
+     * @param f - function value
+     */
+    public void printRow(double x, double f) {
+        stringTable.append(String.format(" %-10.2f| %-10.2f|%n", x, f));
+    }
+
+    /**
+     * Output line to screen.
+     * @param length - line length
+     */
+    public void addLine(int length) {
+        stringTable.append("-".repeat(Math.max(0, length)));
+        stringTable.append("|");
+    }
 }
