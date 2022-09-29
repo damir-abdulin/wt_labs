@@ -20,7 +20,22 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package lab1.task1;
+package lab1.task1.main;
+
+import lab1.task1.equation.Equation;
+import lab1.input.Input;
 
 public class Task1 {
+    public static void main(String[] args) {
+
+        Input input = new Input();
+
+        double x = input.getDoubleValue("Input x: ");
+        double y = input.getDoubleValue("Input y: ");
+
+        Equation equation = new Equation(x, y);
+        double result = equation.Solve();
+
+        System.out.printf("f(%.3f; %.3f) = %.3f\n", x, y, result);
+    }
 }
