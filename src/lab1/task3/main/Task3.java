@@ -22,9 +22,46 @@
  */
 package lab1.task3.main;
 
+import lab1.input.Input;
+import lab1.task3.calculator.Calculator;
+import lab1.task3.table.Table;
+import java.util.Map;
+
+
 public class Task3 {
+
+    private static final double ACCURACY = 0.001;
+
+    private static Table table;
 
     public static void main(String[] args) {
 
+        Input input = new Input();
+        table = new Table();
+
+        double a = input.getDoubleValue("Input a: ");
+        double b = input.getDoubleValue("Input b: ");
+        double h = input.getDoubleValue("Input h: ");
+
+        createTable(a, b, h);
+        table.printTable();
     }
+
+    /**
+     * Create table for results tan(x)
+     * @param a - min value
+     * @param b - max value
+     * @param h - step
+     */
+    private static void createTable(double a, double b, double h) {
+        Calculator calculator = new Calculator(a, b, h);
+        Map<Double, Double> functionValues = calculator.getResultMap();
+
+        table.addHeader();
+
+        for (Map.Entry<Double, Double> entry : functionValues.entrySet()) {
+            table.printRow(entry.getKey(), entry.getValue());
+        }
+    }
+
 }

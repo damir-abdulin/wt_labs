@@ -27,6 +27,11 @@ public class Table {
     private final int lineLength = 23;
     private StringBuilder stringTable;
 
+    public Table()
+    {
+        stringTable = new StringBuilder();
+    }
+
     /**
      * Show string `tableString`.
      */
@@ -39,7 +44,7 @@ public class Table {
      * Add table header to `tableString`.
      */
     public void addHeader() {
-        stringTable.append(" x         | tg(x)     |%n");
+        stringTable.append(String.format(" x         | tg(x)     |%n"));
         addLine(lineLength);
     }
 
@@ -58,6 +63,6 @@ public class Table {
      */
     public void addLine(int length) {
         stringTable.append("-".repeat(Math.max(0, length)));
-        stringTable.append("|");
+        stringTable.append(String.format("|%n"));
     }
 }
