@@ -21,6 +21,10 @@ public class Calculator {
         this.step = step;
     }
 
+    /**
+     * Calculating tan(x) where x = [a, b].
+     * @return calculating result.
+     */
     public Map<Double, Double> getResultMap() {
         Map<Double, Double> result = new HashMap<Double, Double>();
 

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c33bfd57-4655-4255-b71f-9c9ee8a50083" name="Changes" comment="[feature] Create class Table">
-      <change afterPath="$PROJECT_DIR$/src/lab1/task3/calculator/Calculator.java" afterDir="false" />
+    <list default="true" id="c33bfd57-4655-4255-b71f-9c9ee8a50083" name="Changes" comment="[feature] Done task 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab1/task3/main/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/task3/main/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab1/task3/table/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/task3/table/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/task3/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/task3/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664437834608</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[feature] Done task 3">
+      <created>1664720747439</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664720747439</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +159,8 @@
     <MESSAGE value="[feature] Completed task #2" />
     <MESSAGE value="[feature] Init classes for task #3" />
     <MESSAGE value="[feature] Create class Table" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feature] Create class Table" />
+    <MESSAGE value="[feature] Done task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] Done task 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
