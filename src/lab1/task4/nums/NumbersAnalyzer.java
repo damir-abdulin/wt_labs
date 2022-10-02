@@ -62,4 +62,24 @@ public class NumbersAnalyzer {
         System.arraycopy(resultBuffer, 0, result, 0, countPrimaryNumbers);
         return result;
     }
+
+    /**
+     * For task #5
+     * Counts numbers which should was deleted.
+     */
+    public int countExtraNumbers()
+    {
+        if (numbers.length == 0) return 0;
+
+        int count = 0;
+        int maxNumber = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] <= maxNumber) {
+                count += 1;
+            } else {
+                maxNumber = numbers[i];
+            }
+        }
+        return count;
+    }
 }
