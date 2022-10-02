@@ -22,6 +22,10 @@ public class Task4 {
 
     }
 
+    /**
+     * Prints to screen analyzer.getPrimaryIndices() result.
+     * @param analyzer
+     */
     private static void printPrimaryNumbers(NumbersAnalyzer analyzer)
     {
         int[] arr = analyzer.getNumbers();
@@ -37,7 +41,5 @@ public class Task4 {
         } else {
             System.out.println("Array hasn't primary numbers.");
         }
-
-
     }
 }

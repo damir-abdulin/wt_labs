@@ -15,6 +15,11 @@ public class NumbersAnalyzer {
     {
         return numbers;
     }
+
+    /**
+     * Returns indices primary elements.
+     * @return indices array.
+     */
     public int[] getPrimaryNumbersIndices() {
         int countPrimaryNumbers = 0;
 
