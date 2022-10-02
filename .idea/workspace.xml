@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c33bfd57-4655-4255-b71f-9c9ee8a50083" name="Changes" comment="[feature] Done task 3">
+    <list default="true" id="c33bfd57-4655-4255-b71f-9c9ee8a50083" name="Changes" comment="[feature] Add comments">
+      <change afterPath="$PROJECT_DIR$/src/lab1/task4/main/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab1/task4/nums/NumbersAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab1/task3/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/task3/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664720747439</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[feature] Add comments">
+      <created>1664720920225</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664720920225</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +168,8 @@
     <MESSAGE value="[feature] Init classes for task #3" />
     <MESSAGE value="[feature] Create class Table" />
     <MESSAGE value="[feature] Done task 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feature] Done task 3" />
+    <MESSAGE value="[feature] Add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] Add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
