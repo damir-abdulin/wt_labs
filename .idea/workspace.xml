@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c33bfd57-4655-4255-b71f-9c9ee8a50083" name="Changes" comment="[feature] Done task #8">
+    <list default="true" id="c33bfd57-4655-4255-b71f-9c9ee8a50083" name="Changes" comment="[feature] Add licence">
+      <change afterPath="$PROJECT_DIR$/src/lab1/task9/main/Task9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab1/task8/main/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/task8/main/Task8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab1/task8/merger/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/task8/merger/Merger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664726724758</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[feature] Add licence">
+      <created>1664726784987</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664726784987</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +237,8 @@
     <MESSAGE value="[feature] Done task #6" />
     <MESSAGE value="[feature] Done task #7" />
     <MESSAGE value="[feature] Done task #8" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feature] Done task #8" />
+    <MESSAGE value="[feature] Add licence" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] Add licence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
